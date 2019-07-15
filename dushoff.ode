@@ -1,0 +1,11 @@
+# from https://doi.org/10.1073/pnas.0407293101
+# SIRS model
+# non-dimnesionalised version
+B(TH) = B0*(1+B1*cos(2*pi*TH))
+S' = (1-S-I)/L - B(T)*I*S
+I' = B(T)*I*S-I/D
+aux R=(1-S-I)
+par B0=1.5, B1=0.02, D=0.02, L=4
+init S=0.998, I=0.002
+@bounds=6000, total=100, dt=0.05
+done

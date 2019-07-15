@@ -1,0 +1,9 @@
+s' = m + g*(1-s-i) - (m + b*i + 0.25*v)*s
+i' = b*i*s - (m+al)*i
+#r' = al*i + 0.25*v*s - (m+g)*r
+aux r = 1-s-i
+aux l = b*i*s
+init s=0.99999, i=0.00001 
+par m=0.01, g=0.9, b=1.77614, al=0.99, v=0.6
+@dt=0.005, @total=100
+done

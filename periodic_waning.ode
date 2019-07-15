@@ -1,0 +1,14 @@
+lm(x) = r0 + (r1-r0)*exp(-a*x)
+q(x) = 0.000725530125*pi*sin(2*pi*x-14.1545857)+0.0109246736
+gs(x) = g*heav(sin(2*pi*x)-0.999)
+s' = m + gs(t)*r - (m + lm(q(t))*i + 0.25*v)*s
+i' = lm(q(t))*i*s - (m+al)*i
+r' = al*i + 0.25*v*s - (m+gs(t))*r
+#th' = 1
+aux l = lm(q(t))*i*s
+aux lmt = lm(q(t))
+aux gt = gs(t)
+init s=0.99999, i=0.00001 
+par m=0.01, g=0.6, r0=1.5, r1=3.5, al=0.9, v=0.2, a=180
+@dt=0.005, total=100
+done

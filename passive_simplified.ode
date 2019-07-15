@@ -1,0 +1,25 @@
+x'=a*x**2 - r*x - k*x*y
+y'=p*(x**u)/(m**v+x**v) + s*y**n/(c**n+y**n) -d*y
+z'=f*y*z - g*z -j*x - l*y
+par u=1,v=2,n=3
+par a = 1
+par r = -1
+par k = 6.32
+par p = 1.75
+par m = 2.5
+par s = 1
+par c = 1
+par d = 0.36
+par f = 4.212916316519455
+par g = 12
+par j = 3
+par l = 4
+
+init x=0.25, y=0.0, z=0.0
+@ axes=3
+@ xp=x, yp=z,
+# @ xlo=-1, xhi=4, ylo=-8, yhi=1
+@ xlo=-1, xhi=1, ylo=-1, yhi=1
+@ zp=y, xmin=-1, xmax=4, ymin=-8, ymax=1, zmin=-1, zmax=4
+@ dt=0.005, total=100, nmesh=400
+@ ncdraw=1, dfdraw=2

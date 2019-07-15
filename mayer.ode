@@ -1,0 +1,8 @@
+x'=r*x-k*x*y
+y'=p*x/(1+x**2) + s*(y**3)/(1+y**3) - d*y
+parameter r=0.3
+parameter k=1
+parameter p=0.7
+parameter s=2
+parameter d=1
+init x=0.005, y=0

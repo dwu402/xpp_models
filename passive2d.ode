@@ -1,0 +1,16 @@
+x'=r*x-a*x*(b-x)-k*x*y
+y'=p*(x**u)/(m**v+x**v) + s*y**n/(c**n+y**n) -d*y
+parameter r=1.51693961
+parameter a=1.51693961
+parameter b=2
+parameter k=1.61376228
+parameter p=1.09304053
+parameter m=1.05846373
+parameter u=1
+parameter v=2
+parameter s=0.93296698
+parameter c=0.85530227
+parameter n=3
+parameter d=0.63969814
+init x=0.003782111543089989,y=0.9916390034996595
+

@@ -1,0 +1,4 @@
+x'=y
+y'=-a+x^2
+parameter a=1
+init x=0,y=0

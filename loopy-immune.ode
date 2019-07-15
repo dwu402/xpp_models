@@ -1,0 +1,15 @@
+x'=r*x-k*x*y
+y'=p*x/(m**2+x**2) + s*(y**3)/(c**3+y**3) - d*y
+z'=f*y*z - g*z - j*x - l*y
+parameter r=1.51693961
+parameter k=1.61376228
+parameter p=1.09304053
+parameter m=1.05846373
+parameter s=0.93296698
+parameter c=0.85530227
+parameter d=0.63969814
+parameter f=0.07071368
+parameter g=0.56094673
+parameter j=2.83452793
+parameter l=1.01356925
+init x=0.003782111543089989, y=0.9916390034996595, z=-2.511626059672844

@@ -1,0 +1,14 @@
+y'=p*x/(1+x**2) + s*(y**3)/(1+y**3) - d*y
+z'=f*y*z - g*z - j*x - l*y - m*x*y
+parameter r=0.3
+parameter k=1
+parameter p=0.7
+parameter s=2
+parameter d=1
+parameter f=1
+parameter g=1
+parameter j=0
+parameter l=0
+parameter m=1
+parameter x=0.001
+init y=0, z=0

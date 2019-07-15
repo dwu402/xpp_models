@@ -1,0 +1,19 @@
+x'=r*x-a*x*(b-x)-k*x*y
+y'=p*(x**u)/(m**v+x**v) + s*y**n/(c**n+y**n) -d*y
+z'=f*y*z - g*z -j*x - l*y
+par u=1,v=2,n=3
+par r=2
+par a=1
+par b=3
+par k=4.5
+par p=0.5
+par m=0.5
+par s=1
+par c=0.5
+par d=0.9
+par f=0.5
+par g=0.5
+par j=2
+par l=3.5
+
+init x=0.25, y=0, z=-0

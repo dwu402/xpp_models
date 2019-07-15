@@ -1,0 +1,7 @@
+x' = r*x-k*x*z
+z' = g*z**2*(z+1)*(z+2) - j*x
+parameter r=1
+parameter k=1
+parameter g=1
+parameter j=1
+init x=0,z=0

@@ -1,0 +1,5 @@
+x'=-p*x+q*x*y
+y'=p*y-q*x*y
+parameter p=1,q=1
+init x=1,y=10
+
