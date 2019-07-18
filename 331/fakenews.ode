@@ -1,0 +1,7 @@
+h' = -pw*h*m + pt*(s+m) + pf*d - pl*h
+s' = pw*h*m - pt*s-pl*s-pb*s
+m' = pb*s-pt*m-pl*m
+d' = pl*h+pl*s+pl*m-pf*d
+pars pw=0.1, pb=0.1, pt=0, pl=0, pf=0
+init h=1000, m=1
+done

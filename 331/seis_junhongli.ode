@@ -1,0 +1,7 @@
+s' = (b-d)*s/(d+g1)-s*i+i+g2*e/(d+g1)
+e' = s*i-(a+d+g2)*e/(d+g1)
+i' = g1*a*e/(d+g1)**2-i
+aux n = s+e+i
+pars b, d, g1, g2, a
+done
+
