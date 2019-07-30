@@ -1,5 +1,5 @@
-s' = m + g*(1-s-i) - (m + b*i + 0.25*v)*s
-i' = b*i*s - (m+al)*i
+s' = m + g*(1-s-i) - (m + b*(m+al)*i + 0.25*v)*s
+i' = b*(m+al)*i*s - (m+al)*i
 #r' = al*i + 0.25*v*s - (m+g)*r
 aux r = 1-s-i
 aux l = b*i*s
