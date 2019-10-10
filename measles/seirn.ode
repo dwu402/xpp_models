@@ -1,0 +1,9 @@
+s' = -b*s*i/(s+e+i+r)
+e' = b*s*i/(s+e+i+r)-g*e
+i' = g*e-a*i
+r'= a*i
+init s=1321.62, e=1.00658, i=0, r=1.07293
+par a=1.24231
+par b=2.49455
+par g=1.06142
+done

@@ -1,0 +1,7 @@
+x'=a*y*(K-x)
+y'=-a*x
+par a=1
+par K=3
+init x=0.5
+init y=0.5
+done

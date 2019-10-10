@@ -1,0 +1,6 @@
+x' = -b*x*y/N
+y' = b*x*y/N - a*y
+par a=0.75, b=2, N=10000
+init x=9999, y=1
+done
+

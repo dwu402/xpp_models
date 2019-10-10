@@ -1,0 +1,12 @@
+S' = -b*S*(I**2)/N
+E' = b*S*(I**2)/N - g*E
+I' = g*E - a*I
+R' = a*I
+aux Z = S+E+I+R
+par a=0.500000569
+par b=0.400615356
+par g=0.333333699
+par N=822.817371
+init S=814.118250, E=8.69905494, I=0.0, R=0.0
+@bounds=100000, total=35, method=stiff
+done
